@@ -1,6 +1,6 @@
 # Group 18 Data Challenge
 
-##Authors
+## Authors
 > - Adam Lewis 7665789
 > - Kurt Holzwarth 7751415
 
