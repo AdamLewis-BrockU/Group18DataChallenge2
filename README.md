@@ -1,5 +1,9 @@
 # Group 18 Data Challenge
 
+##Authors
+> - Adam Lewis 7665789
+> - Kurt Holzwarth 7751415
+
 ## Data Set Used:
 > - `team18_parking.csv`
 
