@@ -3,10 +3,10 @@
 ## Data Set Used:
 > - `team18_parking.csv`
 
-## Parking Violations Group Project Purpose:
-> - In this project, we analyze 950 different parking violations across 10 different variables.
+## Project Purpose:
+> - In this project, we analyze 950 different parking violations across 10 columns.
 > - There are 6 different questions answered through in depth analysis and graphs.
-> - There are also data cleaning sections where the dataframe columns and values are modified.
+> - There also includes data cleaning sections where the dataframe columns and values are modified.
 
 ## Questions:
 > 1. Which zone has the most parking violations?
