@@ -1,0 +1,951 @@
+violation_id,date,violation_type,zone,time_of_day,fine_amount,paid,vehicle_type,repeat_offender,day_of_week
+1,2023-07-12,Handicap,Residential,Morning,50.0,True,Car,False,Sunday
+2,2023-11-22,No Parking Zone,Commercial,Afternoon,25.0,True,Truck,False,Wednesday
+3,2023-05-21,Handicap,Commercial,Morning,50.0,True,Car,True,Friday
+4,2023-09-25,No Parking Zone,Residential,Morning,100.0,True,Car,True,Tuesday
+5,2023-04-14,Expired Meter,Downtown,Afternoon,75.0,False,Car,False,Thursday
+6,2023-12-30,Expired Meter,Residential,Night,75.0,True,Car,False,Tuesday
+7,2023-10-18,Fire Hydrant,Downtown,Afternoon,25.0,False,Car,False,Saturday
+8,2023-03-05,Expired Meter,Commercial,Morning,75.0,True,Car,False,Saturday
+9,2023-02-26,Handicap,Commercial,Morning,50.0,False,Car,False,Friday
+10,2023-02-09,Expired Meter,Commercial,Afternoon,25.0,True,Truck,False,Sunday
+11,2023-09-06,Expired Meter,Residential,Afternoon,25.0,True,SUV,True,Friday
+12,2023-07-08,Expired Meter,Industrial,Afternoon,25.0,False,Car,False,Sunday
+13,2023-10-15,No Parking Zone,Industrial,Night,50.0,True,Truck,False,Saturday
+14,2023-11-05,Handicap,Downtown,Afternoon,50.0,False,Car,False,Friday
+15,2023-03-08,No Parking Zone,Residential,Morning,25.0,False,Truck,False,Tuesday
+16,2023-09-18,No Parking Zone,Downtown,Afternoon,,True,Car,False,Saturday
+17,2023-07-10,No Parking Zone,Downtown,Evening,75.0,False,Car,True,Friday
+18,2023-06-17,No Parking Zone,Residential,Evening,,True,Truck,True,Saturday
+19,2023-07-18,Street Cleaning,Commercial,Evening,100.0,False,Car,False,Saturday
+20,2023-06-06,Street Cleaning,Residential,Morning,50.0,True,SUV,False,Friday
+21,2023-12-26,Fire Hydrant,Residential,Evening,100.0,True,SUV,False,Wednesday
+22,2023-02-17,Fire Hydrant,Residential,Morning,25.0,False,Truck,False,Friday
+23,2023-11-21,Street Cleaning,Commercial,Morning,25.0,False,Car,False,Tuesday
+24,2023-04-10,Expired Meter,Commercial,Morning,25.0,True,Car,True,Friday
+25,2023-09-20,Expired Meter,Residential,Morning,50.0,True,Car,False,Friday
+26,2023-06-11,Handicap,Residential,Morning,50.0,False,Car,False,Sunday
+27,2023-03-10,Fire Hydrant,Downtown,Evening,50.0,True,Car,False,Thursday
+28,2023-05-29,Expired Meter,Residential,Evening,25.0,True,Car,False,Wednesday
+29,2023-04-17,Expired Meter,Commercial,Afternoon,25.0,True,Motorcycle,False,Thursday
+30,2023-08-16,Expired Meter,Residential,Afternoon,50.0,False,Truck,False,Tuesday
+31,2023-07-12,Street Cleaning,Downtown,Morning,25.0,False,SUV,False,Sunday
+32,2023-12-11,No Parking Zone,Commercial,Afternoon,50.0,True,Car,False,Thursday
+33,2023-10-09,Street Cleaning,Downtown,Morning,,True,Car,False,Monday
+34,2023-02-12,No Parking Zone,Commercial,Afternoon,75.0,True,Truck,True,Saturday
+35,2023-08-08,Expired Meter,Residential,Morning,25.0,True,Truck,False,Sunday
+36,2023-08-26,Expired Meter,Residential,Afternoon,50.0,True,Car,False,Sunday
+37,2023-04-17,Fire Hydrant,Residential,Night,50.0,False,Motorcycle,False,Tuesday
+38,2023-04-19,No Parking Zone,Commercial,Morning,100.0,True,Car,False,Tuesday
+39,2023-06-27,Fire Hydrant,Commercial,Morning,25.0,False,Car,False,Sunday
+40,2023-09-02,No Parking Zone,Downtown,Afternoon,50.0,False,Car,False,Tuesday
+41,2023-06-03,Handicap,Residential,Morning,25.0,True,SUV,False,Saturday
+42,2023-06-10,Expired Meter,Residential,Morning,50.0,True,Car,False,Monday
+43,2023-11-28,Expired Meter,Commercial,Morning,75.0,False,Truck,False,Sunday
+44,2023-11-24,Fire Hydrant,Downtown,Afternoon,50.0,False,SUV,False,Monday
+45,2023-03-12,Expired Meter,Commercial,Afternoon,50.0,False,Car,False,Friday
+46,2023-08-13,Expired Meter,Downtown,Afternoon,25.0,True,Truck,False,Sunday
+47,2023-06-15,No Parking Zone,Commercial,Afternoon,25.0,False,Motorcycle,True,Sunday
+48,2023-05-01,No Parking Zone,Residential,Morning,50.0,True,Car,False,Thursday
+49,2023-05-28,Expired Meter,Commercial,Evening,50.0,True,SUV,True,Monday
+50,2023-02-26,Expired Meter,Residential,Afternoon,50.0,False,Car,False,Thursday
+51,2023-10-06,No Parking Zone,Downtown,Afternoon,25.0,True,Truck,True,Thursday
+52,2023-01-10,No Parking Zone,Residential,Night,,True,Truck,False,Sunday
+53,2023-07-27,No Parking Zone,Downtown,Morning,25.0,True,Motorcycle,False,Saturday
+54,2023-05-04,Handicap,Residential,Evening,100.0,True,SUV,False,Monday
+55,2023-12-17,Street Cleaning,Downtown,Afternoon,50.0,False,Car,True,Monday
+56,2023-08-18,Fire Hydrant,Industrial,Afternoon,25.0,True,Truck,False,Thursday
+57,2023-11-21,Fire Hydrant,Downtown,Evening,50.0,True,Car,False,Sunday
+58,2023-06-01,Street Cleaning,Residential,Morning,25.0,True,Car,False,Thursday
+59,2023-11-16,Expired Meter,Residential,Afternoon,75.0,True,SUV,False,Saturday
+60,2023-01-11,No Parking Zone,Residential,Morning,50.0,False,Car,False,Friday
+61,2023-11-09,Street Cleaning,Commercial,Morning,75.0,True,,False,Monday
+62,2023-05-01,No Parking Zone,Commercial,Morning,50.0,False,SUV,False,Thursday
+63,2023-04-15,Fire Hydrant,Residential,Night,100.0,True,Car,False,Monday
+64,2023-08-02,Expired Meter,Commercial,Afternoon,50.0,True,Car,True,Monday
+65,2023-01-30,Expired Meter,Commercial,Evening,25.0,False,Truck,False,Wednesday
+66,2023-12-06,Expired Meter,Residential,Evening,75.0,True,Car,False,Wednesday
+67,2023-01-26,Expired Meter,Residential,Morning,100.0,True,Truck,True,Friday
+68,2023-08-20,No Parking Zone,Downtown,Morning,,True,Car,False,Wednesday
+69,2023-05-10,Expired Meter,Residential,Evening,100.0,True,Car,False,Tuesday
+70,2023-06-20,Expired Meter,Downtown,Afternoon,25.0,True,,False,Thursday
+71,2023-04-27,Expired Meter,Residential,Morning,75.0,True,SUV,True,Friday
+72,2023-03-10,Expired Meter,Residential,Afternoon,100.0,True,Truck,False,Thursday
+73,2023-11-02,Street Cleaning,Residential,Afternoon,50.0,False,Car,True,Monday
+74,2023-07-31,Expired Meter,Downtown,Evening,50.0,True,Truck,False,Tuesday
+75,2023-11-22,No Parking Zone,Residential,Afternoon,25.0,True,Truck,False,Friday
+76,2023-12-07,No Parking Zone,Commercial,Night,25.0,True,SUV,True,Sunday
+77,2023-12-21,Street Cleaning,Residential,Morning,150.0,True,SUV,True,Friday
+78,2023-04-28,Fire Hydrant,Residential,Evening,25.0,True,SUV,False,Sunday
+79,2023-03-14,No Parking Zone,Downtown,Evening,,True,Truck,False,Thursday
+80,2023-04-10,Expired Meter,Downtown,Evening,25.0,False,Truck,False,Sunday
+81,2023-07-20,Handicap,Industrial,Afternoon,25.0,True,SUV,False,Wednesday
+82,2023-05-24,Fire Hydrant,Residential,Afternoon,150.0,True,Car,False,Monday
+83,2023-12-23,Expired Meter,Commercial,Morning,50.0,True,Car,False,Tuesday
+84,2023-11-04,Fire Hydrant,Commercial,Evening,50.0,True,Car,False,Tuesday
+85,2023-07-23,Expired Meter,Commercial,Evening,,True,Car,False,Monday
+86,2023-05-31,Handicap,Commercial,Morning,25.0,False,Car,True,Wednesday
+87,2023-01-27,Handicap,Commercial,Afternoon,75.0,True,Car,False,Friday
+88,2023-08-22,Fire Hydrant,Commercial,Morning,75.0,True,Truck,False,Saturday
+89,2023-11-17,No Parking Zone,Commercial,Evening,100.0,True,Car,False,Saturday
+90,2023-09-24,Expired Meter,Commercial,Afternoon,75.0,True,Car,False,Wednesday
+91,2023-12-11,Street Cleaning,Commercial,Afternoon,50.0,True,Car,False,Saturday
+92,2023-02-17,No Parking Zone,Commercial,Afternoon,50.0,True,SUV,False,Friday
+93,2023-11-29,No Parking Zone,Residential,Morning,25.0,True,SUV,False,Sunday
+94,2023-04-11,No Parking Zone,Commercial,Afternoon,50.0,False,Car,False,Monday
+95,2023-11-03,Expired Meter,Industrial,Night,50.0,True,Car,False,Saturday
+96,2023-02-08,Fire Hydrant,Commercial,Afternoon,,False,SUV,False,Sunday
+97,2023-10-17,Fire Hydrant,Commercial,Evening,100.0,True,Car,True,Monday
+98,2023-10-17,Street Cleaning,Downtown,Afternoon,25.0,True,SUV,False,Monday
+99,2023-10-25,Expired Meter,Residential,Afternoon,100.0,False,Car,True,Thursday
+100,2023-02-11,No Parking Zone,Commercial,Evening,75.0,False,Truck,True,Friday
+101,2023-05-18,No Parking Zone,Residential,Afternoon,25.0,True,Car,False,Friday
+102,2023-11-22,Fire Hydrant,Residential,Afternoon,25.0,True,Car,False,Tuesday
+103,2023-06-28,Expired Meter,Residential,Afternoon,25.0,False,Car,True,Monday
+104,2023-11-09,Expired Meter,Residential,Evening,25.0,True,Car,False,Friday
+105,2023-04-22,Expired Meter,Residential,Afternoon,50.0,False,SUV,True,Monday
+106,2023-10-07,No Parking Zone,Downtown,Evening,50.0,True,Car,False,Saturday
+107,2023-02-05,Handicap,Commercial,Afternoon,75.0,False,Truck,False,Friday
+108,2023-12-24,Fire Hydrant,Residential,Afternoon,50.0,True,Car,True,Tuesday
+109,2023-02-21,No Parking Zone,Residential,Morning,50.0,False,Car,False,Tuesday
+110,2023-11-08,Expired Meter,Residential,Afternoon,,True,Car,True,Sunday
+111,2023-03-12,Expired Meter,Residential,Morning,75.0,True,SUV,False,Tuesday
+112,2023-09-13,No Parking Zone,Commercial,Morning,25.0,True,SUV,True,Tuesday
+113,2023-04-02,Expired Meter,Commercial,Afternoon,25.0,False,SUV,False,Wednesday
+114,2023-01-16,Street Cleaning,Residential,Night,50.0,False,Car,True,Saturday
+115,2023-12-30,No Parking Zone,Commercial,Afternoon,50.0,True,Car,False,Tuesday
+116,2023-12-06,Expired Meter,Industrial,Morning,100.0,True,Car,False,Sunday
+117,2023-05-08,No Parking Zone,Industrial,Afternoon,,True,Car,True,Thursday
+118,2023-06-22,Expired Meter,Residential,Morning,50.0,True,Car,False,Sunday
+119,2023-02-06,No Parking Zone,Commercial,Afternoon,50.0,False,Truck,True,Friday
+120,2023-12-16,Handicap,Downtown,Afternoon,50.0,False,Car,True,Sunday
+121,2023-08-14,Expired Meter,Downtown,Evening,50.0,True,Car,False,Wednesday
+122,2023-10-12,Expired Meter,Downtown,Morning,75.0,True,Car,False,Tuesday
+123,2023-06-19,Expired Meter,Downtown,Morning,50.0,True,Truck,False,Friday
+124,2023-07-21,Handicap,Residential,Evening,,True,Car,True,Sunday
+125,2023-04-04,Fire Hydrant,Industrial,Evening,150.0,True,Truck,False,Sunday
+126,2023-10-21,No Parking Zone,Residential,Evening,50.0,False,Truck,False,Thursday
+127,2023-03-16,No Parking Zone,Commercial,Morning,25.0,True,Car,False,Thursday
+128,2023-06-05,Expired Meter,Commercial,Morning,25.0,False,Truck,False,Sunday
+129,2023-11-26,Fire Hydrant,Residential,Afternoon,25.0,True,Car,True,Saturday
+130,2023-10-09,Expired Meter,Downtown,Evening,25.0,True,Car,True,Wednesday
+131,2023-06-06,No Parking Zone,Industrial,Evening,50.0,True,Car,False,Monday
+132,2023-07-04,Expired Meter,Residential,Afternoon,25.0,False,Truck,False,Thursday
+133,2023-02-05,Expired Meter,Commercial,Afternoon,50.0,True,Car,False,Monday
+134,2023-06-20,Expired Meter,Commercial,Evening,25.0,True,Truck,False,Sunday
+135,2023-08-20,Expired Meter,Downtown,Evening,25.0,True,Car,False,Sunday
+136,2023-10-17,Expired Meter,Commercial,Afternoon,75.0,True,Truck,False,Sunday
+137,2023-12-16,Expired Meter,Industrial,Afternoon,150.0,True,,True,Sunday
+138,2023-12-05,Expired Meter,Commercial,Afternoon,100.0,False,Car,False,Saturday
+139,2023-04-17,Expired Meter,Commercial,Afternoon,75.0,True,Car,False,Thursday
+140,2023-12-07,Fire Hydrant,Residential,Evening,75.0,True,Car,True,Friday
+141,2023-05-18,Fire Hydrant,Downtown,Afternoon,50.0,True,Truck,False,Sunday
+142,2023-06-17,Expired Meter,Commercial,Morning,25.0,False,Car,False,Sunday
+143,2023-02-18,Fire Hydrant,Downtown,Morning,25.0,True,Truck,False,Tuesday
+144,2023-09-27,Handicap,Commercial,Night,50.0,False,Car,True,Thursday
+145,2023-07-14,Fire Hydrant,Commercial,Afternoon,,False,Truck,False,Monday
+146,2023-03-31,No Parking Zone,Commercial,Afternoon,150.0,True,Truck,False,Friday
+147,2023-08-18,Street Cleaning,Commercial,Morning,50.0,True,Car,False,Sunday
+148,2023-06-18,No Parking Zone,Residential,Morning,50.0,False,Car,False,Thursday
+149,2023-04-14,Fire Hydrant,Residential,Afternoon,50.0,False,Motorcycle,False,Tuesday
+150,2023-11-17,No Parking Zone,Industrial,Afternoon,50.0,True,Car,False,Monday
+151,2023-06-27,Expired Meter,Residential,Afternoon,50.0,False,Car,True,Saturday
+152,2023-09-21,Fire Hydrant,Commercial,Morning,50.0,True,Car,False,Tuesday
+153,2023-07-11,Fire Hydrant,Industrial,Evening,75.0,True,Car,False,Monday
+154,2023-10-10,Expired Meter,Downtown,Morning,50.0,False,Car,True,Saturday
+155,2023-01-18,Expired Meter,Residential,Afternoon,50.0,True,SUV,False,Friday
+156,2023-05-18,Handicap,Commercial,Afternoon,100.0,False,Motorcycle,False,Sunday
+157,2023-04-27,Expired Meter,Commercial,Night,75.0,False,SUV,True,Friday
+158,2023-07-30,Expired Meter,Industrial,Afternoon,25.0,False,Car,True,Sunday
+159,2023-05-26,Expired Meter,Downtown,Afternoon,75.0,True,Car,False,Sunday
+160,2023-04-25,Expired Meter,Downtown,Afternoon,150.0,True,Truck,False,Saturday
+161,2023-12-17,No Parking Zone,Commercial,Afternoon,75.0,True,Car,False,Wednesday
+162,2023-09-12,Expired Meter,Industrial,Evening,75.0,True,Car,False,Friday
+163,2023-07-14,No Parking Zone,Residential,Afternoon,50.0,True,Truck,True,Thursday
+164,2023-12-31,No Parking Zone,Downtown,Morning,50.0,False,Car,False,Sunday
+165,2023-04-22,Expired Meter,Residential,Afternoon,50.0,False,Truck,False,Sunday
+166,2023-05-28,Expired Meter,Commercial,Afternoon,50.0,True,SUV,True,Saturday
+167,2023-10-27,Expired Meter,Downtown,Afternoon,25.0,True,Car,False,Saturday
+168,2023-01-20,Street Cleaning,Residential,Evening,25.0,True,Car,False,Friday
+169,2023-10-13,No Parking Zone,Commercial,Evening,25.0,False,Car,False,Thursday
+170,2023-10-17,Street Cleaning,Residential,Night,50.0,False,SUV,False,Tuesday
+171,2023-11-16,Expired Meter,Downtown,Morning,25.0,True,Car,False,Friday
+172,2023-05-05,Expired Meter,Downtown,Afternoon,25.0,False,Car,False,Monday
+173,2023-05-08,Street Cleaning,Downtown,Morning,,True,Car,False,Saturday
+174,2023-04-05,Handicap,Commercial,Evening,25.0,True,Car,False,Sunday
+175,2023-10-29,Fire Hydrant,Residential,Afternoon,150.0,True,Car,False,Friday
+176,2023-05-16,Expired Meter,Industrial,Evening,50.0,True,Truck,True,Friday
+177,2023-01-02,Expired Meter,Residential,Afternoon,25.0,True,Car,False,Saturday
+178,2023-06-03,Expired Meter,Commercial,Evening,50.0,True,Truck,True,Tuesday
+179,2023-01-07,Street Cleaning,Residential,Morning,100.0,True,Car,False,Wednesday
+180,2023-05-30,No Parking Zone,Downtown,Morning,50.0,True,Truck,True,Monday
+181,2023-10-15,Expired Meter,Residential,Morning,75.0,True,Car,False,Sunday
+182,2023-06-15,Expired Meter,Residential,Evening,50.0,False,Car,False,Friday
+183,2023-04-08,No Parking Zone,Commercial,Morning,25.0,True,Car,True,Monday
+184,2023-05-10,Expired Meter,Residential,Morning,75.0,True,Truck,False,Saturday
+185,2023-06-18,Street Cleaning,Industrial,Evening,75.0,False,Car,True,Sunday
+186,2023-07-05,Expired Meter,Commercial,Afternoon,100.0,False,SUV,True,Saturday
+187,2023-05-01,Expired Meter,Downtown,Night,75.0,True,Car,False,Friday
+188,2023-12-01,Expired Meter,Commercial,Evening,50.0,False,Car,False,Wednesday
+189,2023-10-10,Handicap,Residential,Afternoon,100.0,False,Car,False,Wednesday
+190,2023-06-03,Expired Meter,Residential,Morning,75.0,True,Truck,False,Saturday
+191,2023-02-25,Expired Meter,Commercial,Evening,25.0,True,Car,False,Friday
+192,2023-01-10,Fire Hydrant,Residential,Afternoon,75.0,True,Car,False,Thursday
+193,2023-08-30,Expired Meter,Downtown,Evening,50.0,True,Car,False,Saturday
+194,2023-02-06,No Parking Zone,Commercial,Morning,100.0,True,Car,True,Sunday
+195,2023-03-11,Street Cleaning,Downtown,Afternoon,50.0,True,Car,True,Sunday
+196,2023-08-13,Expired Meter,Commercial,Evening,25.0,True,Motorcycle,False,Tuesday
+197,2023-06-27,No Parking Zone,Commercial,Afternoon,75.0,False,Car,False,Thursday
+198,2023-03-10,No Parking Zone,Residential,Morning,25.0,True,Car,True,Saturday
+199,2023-04-18,Handicap,Commercial,Night,25.0,False,Car,False,Thursday
+200,2023-10-13,Expired Meter,Industrial,Afternoon,50.0,True,SUV,False,Wednesday
+201,2023-01-05,Fire Hydrant,Commercial,Evening,25.0,True,Truck,False,Monday
+202,2023-09-21,No Parking Zone,Downtown,Afternoon,25.0,True,SUV,True,Sunday
+203,2023-05-07,Expired Meter,Industrial,Morning,50.0,True,Car,False,Friday
+204,2023-08-03,No Parking Zone,Residential,Afternoon,25.0,True,Truck,False,Sunday
+205,2023-09-19,No Parking Zone,Residential,Evening,50.0,True,Car,True,Monday
+206,2023-02-02,No Parking Zone,Downtown,Afternoon,25.0,False,SUV,False,Monday
+207,2023-02-05,Handicap,Residential,Afternoon,25.0,True,Car,True,Tuesday
+208,2023-01-27,No Parking Zone,Downtown,Evening,50.0,True,Car,False,Wednesday
+209,2023-01-30,No Parking Zone,Residential,Afternoon,75.0,True,Truck,False,Sunday
+210,2023-01-13,Expired Meter,Residential,Afternoon,50.0,True,Car,False,Wednesday
+211,2023-06-27,Fire Hydrant,Industrial,Afternoon,50.0,True,Car,False,Friday
+212,2023-03-11,Expired Meter,Residential,Afternoon,,True,Car,True,Friday
+213,2023-06-28,Handicap,Residential,Afternoon,25.0,True,Truck,False,Friday
+214,2023-09-09,No Parking Zone,Downtown,Afternoon,50.0,False,Car,False,Saturday
+215,2023-09-14,No Parking Zone,Downtown,Afternoon,50.0,True,Car,False,Sunday
+216,2023-12-02,Fire Hydrant,Industrial,Morning,25.0,True,Truck,False,Sunday
+217,2023-12-24,Expired Meter,Downtown,Afternoon,75.0,True,Car,False,Thursday
+218,2023-12-16,No Parking Zone,Downtown,Morning,75.0,True,Car,False,Sunday
+219,2023-03-24,Fire Hydrant,Residential,Night,50.0,True,Car,False,Wednesday
+220,2023-07-24,Expired Meter,Residential,Afternoon,25.0,False,Car,True,Thursday
+221,2023-12-08,Expired Meter,Commercial,Afternoon,150.0,False,Car,False,Thursday
+222,2023-11-13,Handicap,Downtown,Morning,75.0,True,Car,False,Monday
+223,2023-12-11,Handicap,Commercial,Evening,25.0,True,SUV,False,Wednesday
+224,2023-05-03,Expired Meter,Commercial,Night,50.0,True,SUV,True,Sunday
+225,2023-03-20,Fire Hydrant,Downtown,Afternoon,25.0,True,Car,False,Monday
+226,2023-02-16,No Parking Zone,Commercial,Morning,50.0,True,SUV,True,Saturday
+227,2023-10-21,Fire Hydrant,Commercial,Morning,100.0,False,Car,False,Saturday
+228,2023-06-26,Expired Meter,Downtown,Morning,50.0,False,SUV,False,Wednesday
+229,2023-12-30,No Parking Zone,Residential,Afternoon,25.0,False,Car,False,Saturday
+230,2023-03-29,Expired Meter,Residential,Morning,75.0,True,Car,True,Monday
+231,2023-03-21,Fire Hydrant,Residential,Morning,75.0,True,Car,False,Monday
+232,2023-03-16,Expired Meter,Commercial,Evening,100.0,True,SUV,False,Saturday
+233,2023-01-28,Street Cleaning,Downtown,Afternoon,50.0,True,,False,Monday
+234,2023-09-01,Handicap,Downtown,Morning,100.0,True,Car,False,Saturday
+235,2023-06-15,Fire Hydrant,Downtown,Afternoon,75.0,True,Truck,False,Saturday
+236,2023-11-20,Street Cleaning,Commercial,Night,75.0,True,Car,True,Tuesday
+237,2023-12-21,No Parking Zone,Commercial,Evening,50.0,False,Car,False,Thursday
+238,2023-04-06,Expired Meter,Downtown,Morning,50.0,True,Car,False,Saturday
+239,2023-01-23,Fire Hydrant,Residential,Morning,75.0,False,Car,False,Friday
+240,2023-08-30,Street Cleaning,Commercial,Afternoon,25.0,False,SUV,False,Friday
+241,2023-11-29,No Parking Zone,Residential,Afternoon,50.0,True,Car,False,Saturday
+242,2023-03-06,Expired Meter,Downtown,Morning,100.0,True,Car,True,Saturday
+243,2023-09-03,Expired Meter,Commercial,Afternoon,75.0,True,Truck,False,Saturday
+244,2023-03-05,Handicap,Commercial,Evening,75.0,True,Truck,False,Sunday
+245,2023-07-27,Expired Meter,Downtown,Evening,25.0,True,Car,False,Monday
+246,2023-06-01,Fire Hydrant,Commercial,Evening,50.0,False,Car,False,Friday
+247,2023-03-12,Street Cleaning,Residential,Afternoon,50.0,True,Car,True,Thursday
+248,2023-12-12,Expired Meter,Commercial,Afternoon,75.0,True,Truck,False,Wednesday
+249,2023-02-24,Expired Meter,Residential,Afternoon,50.0,True,SUV,False,Thursday
+250,2023-09-25,Expired Meter,Residential,Evening,50.0,False,Car,False,Sunday
+251,2023-10-29,No Parking Zone,Industrial,Morning,25.0,False,Car,False,Monday
+252,2023-06-24,Street Cleaning,Commercial,Evening,25.0,False,Car,False,Wednesday
+253,2023-12-17,Expired Meter,Residential,Morning,25.0,True,Car,False,Sunday
+254,2023-04-11,No Parking Zone,Downtown,Night,75.0,True,Car,False,Tuesday
+255,2023-05-30,No Parking Zone,Commercial,Night,50.0,True,,False,Tuesday
+256,2023-04-14,No Parking Zone,Residential,Morning,25.0,True,Car,False,Monday
+257,2023-06-03,No Parking Zone,Downtown,Morning,50.0,False,SUV,False,Tuesday
+258,2023-01-31,Street Cleaning,Downtown,Afternoon,50.0,True,SUV,False,Tuesday
+259,2023-04-03,Expired Meter,Residential,Morning,100.0,True,Truck,False,Sunday
+260,2023-10-05,Expired Meter,Residential,Evening,75.0,True,Car,True,Sunday
+261,2023-06-09,Expired Meter,Downtown,Evening,25.0,False,Car,False,Sunday
+262,2023-09-09,Expired Meter,Industrial,Afternoon,75.0,True,Car,True,Wednesday
+263,2023-11-02,Fire Hydrant,Residential,Afternoon,50.0,True,Car,False,Friday
+264,2023-07-14,Fire Hydrant,Residential,Night,50.0,True,Truck,True,Friday
+265,2023-04-12,No Parking Zone,Commercial,Night,75.0,True,Car,False,Thursday
+266,2023-04-04,Fire Hydrant,Residential,Afternoon,100.0,True,SUV,True,Tuesday
+267,2023-09-10,Expired Meter,Commercial,Evening,,False,Car,False,Monday
+268,2023-04-12,Street Cleaning,Commercial,Morning,75.0,False,Truck,False,Friday
+269,2023-02-17,Expired Meter,Commercial,Morning,50.0,False,Truck,False,Wednesday
+270,2023-08-13,No Parking Zone,Residential,Afternoon,25.0,True,Car,False,Tuesday
+271,2023-02-25,Expired Meter,Residential,Afternoon,75.0,False,Car,False,Tuesday
+272,2023-06-08,Expired Meter,Residential,Afternoon,75.0,False,Car,True,Friday
+273,2023-06-21,Expired Meter,Residential,Morning,75.0,True,Car,False,Monday
+274,2023-02-26,No Parking Zone,Commercial,Night,,True,Car,False,Friday
+275,2023-05-12,Expired Meter,Commercial,Evening,,False,SUV,False,Wednesday
+276,2023-02-12,Expired Meter,Residential,Afternoon,50.0,True,Car,False,Sunday
+277,2023-06-29,No Parking Zone,Downtown,Morning,75.0,True,Motorcycle,False,Wednesday
+278,2023-08-20,Street Cleaning,Residential,Night,25.0,True,Truck,False,Saturday
+279,2023-11-15,Expired Meter,Commercial,Afternoon,25.0,True,SUV,True,Friday
+280,2023-03-10,No Parking Zone,Commercial,Morning,25.0,True,Car,True,Tuesday
+281,2023-03-04,Fire Hydrant,Industrial,Afternoon,25.0,False,Motorcycle,False,Wednesday
+282,2023-12-29,Handicap,Residential,Morning,50.0,True,Car,False,Saturday
+283,2023-02-16,Expired Meter,Commercial,Morning,50.0,True,Car,False,Sunday
+284,2023-07-23,Expired Meter,Downtown,Afternoon,50.0,False,Car,True,Saturday
+285,2023-06-29,Expired Meter,Commercial,Morning,75.0,True,Car,False,Monday
+286,2023-10-18,No Parking Zone,Downtown,Morning,100.0,True,SUV,False,Monday
+287,2023-01-20,Street Cleaning,Commercial,Afternoon,100.0,True,SUV,False,Wednesday
+288,2023-04-23,No Parking Zone,Downtown,Evening,25.0,True,Car,False,Tuesday
+289,2023-07-09,No Parking Zone,Downtown,Evening,50.0,True,Truck,False,Saturday
+290,2023-06-06,Fire Hydrant,Residential,Morning,50.0,False,Truck,True,Monday
+291,2023-03-21,Expired Meter,Commercial,Morning,25.0,False,SUV,False,Tuesday
+292,2023-04-13,No Parking Zone,Residential,Evening,25.0,False,Car,False,Sunday
+293,2023-05-25,Expired Meter,Commercial,Afternoon,25.0,True,SUV,False,Monday
+294,2023-10-13,No Parking Zone,Residential,Afternoon,75.0,True,Car,False,Wednesday
+295,2023-07-18,Street Cleaning,Residential,Night,100.0,False,SUV,False,Monday
+296,2023-11-28,Expired Meter,Commercial,Evening,100.0,False,SUV,False,Tuesday
+297,2023-12-01,Handicap,Residential,Afternoon,25.0,False,Car,True,Saturday
+298,2023-01-10,Handicap,Commercial,Evening,75.0,True,,False,Tuesday
+299,2023-04-17,Handicap,Downtown,Afternoon,100.0,True,Car,False,Wednesday
+300,2023-02-08,Expired Meter,Downtown,Night,75.0,True,SUV,False,Wednesday
+301,2023-03-20,No Parking Zone,Commercial,Afternoon,50.0,True,Car,False,Monday
+302,2023-11-14,Expired Meter,Commercial,Afternoon,150.0,False,Truck,False,Monday
+303,2023-09-24,No Parking Zone,Downtown,Afternoon,75.0,True,Truck,False,Saturday
+304,2023-07-24,Fire Hydrant,Downtown,Afternoon,100.0,True,Truck,False,Saturday
+305,2023-04-08,Expired Meter,Residential,Morning,50.0,True,Car,False,Thursday
+306,2023-04-14,Handicap,Commercial,Afternoon,75.0,True,Car,False,Thursday
+307,2023-04-07,Expired Meter,Residential,Afternoon,50.0,False,Car,False,Tuesday
+308,2023-11-23,Expired Meter,Industrial,Evening,75.0,True,Truck,True,Saturday
+309,2023-06-25,No Parking Zone,Residential,Evening,75.0,True,Car,False,Wednesday
+310,2023-10-25,Expired Meter,Commercial,Afternoon,25.0,False,Car,False,Friday
+311,2023-10-08,Expired Meter,Downtown,Evening,25.0,True,Car,False,Sunday
+312,2023-02-14,No Parking Zone,Downtown,Afternoon,50.0,True,Truck,False,Tuesday
+313,2023-01-27,Expired Meter,Commercial,Afternoon,50.0,True,Car,False,Tuesday
+314,2023-07-11,No Parking Zone,Downtown,Afternoon,75.0,True,Car,True,Monday
+315,2023-05-11,Expired Meter,Residential,Afternoon,25.0,True,Truck,False,Wednesday
+316,2023-05-25,Fire Hydrant,Commercial,Morning,25.0,True,Truck,False,Tuesday
+317,2023-07-29,Handicap,Commercial,Afternoon,50.0,True,Car,False,Tuesday
+318,2023-06-27,Expired Meter,Downtown,Afternoon,50.0,True,Car,False,Saturday
+319,2023-03-14,Fire Hydrant,Commercial,Morning,25.0,True,Car,False,Sunday
+320,2023-08-22,Fire Hydrant,Downtown,Evening,,True,Car,False,Tuesday
+321,2023-10-12,Handicap,Commercial,Afternoon,25.0,True,Car,False,Monday
+322,2023-02-09,Street Cleaning,Commercial,Afternoon,50.0,True,Truck,False,Sunday
+323,2023-08-22,Expired Meter,Commercial,Afternoon,75.0,True,Car,False,Thursday
+324,2023-05-14,Handicap,Downtown,Afternoon,50.0,True,Car,False,Monday
+325,2023-10-02,Expired Meter,Industrial,Morning,25.0,True,Car,False,Sunday
+326,2023-06-11,Expired Meter,Downtown,Afternoon,75.0,False,Car,False,Wednesday
+327,2023-03-04,Fire Hydrant,Commercial,Afternoon,150.0,True,Car,True,Tuesday
+328,2023-08-16,Expired Meter,Commercial,Afternoon,25.0,True,Car,False,Sunday
+329,2023-09-06,Expired Meter,Downtown,Afternoon,75.0,False,Car,False,Monday
+330,2023-07-02,Fire Hydrant,Commercial,Afternoon,,True,Motorcycle,True,Sunday
+331,2023-08-02,Street Cleaning,Industrial,Afternoon,25.0,False,SUV,False,Monday
+332,2023-09-01,Expired Meter,Downtown,Afternoon,75.0,False,Car,True,Monday
+333,2023-07-15,Street Cleaning,Commercial,Morning,50.0,True,Car,False,Monday
+334,2023-07-08,Expired Meter,Residential,Evening,,False,Car,False,Monday
+335,2023-11-25,Fire Hydrant,Downtown,Morning,,True,Car,True,Tuesday
+336,2023-10-26,Fire Hydrant,Commercial,Afternoon,50.0,True,Truck,False,Saturday
+337,2023-09-22,Expired Meter,Downtown,Evening,50.0,True,SUV,True,Friday
+338,2023-03-12,Expired Meter,Downtown,Evening,25.0,True,Truck,False,Thursday
+339,2023-03-11,Street Cleaning,Residential,Afternoon,75.0,True,SUV,False,Friday
+340,2023-10-21,Expired Meter,Residential,Afternoon,150.0,False,Car,False,Saturday
+341,2023-06-19,No Parking Zone,Commercial,Afternoon,75.0,True,Car,False,Tuesday
+342,2023-08-04,Fire Hydrant,Commercial,Morning,50.0,True,Car,False,Thursday
+343,2023-07-26,Fire Hydrant,Downtown,Afternoon,25.0,False,Car,False,Wednesday
+344,2023-03-05,Handicap,Downtown,Afternoon,50.0,True,Car,False,Thursday
+345,2023-05-10,No Parking Zone,Residential,Morning,50.0,False,Motorcycle,False,Sunday
+346,2023-10-29,Expired Meter,Commercial,Morning,50.0,False,SUV,False,Tuesday
+347,2023-11-18,Handicap,Residential,Afternoon,150.0,True,Car,False,Sunday
+348,2023-08-05,No Parking Zone,Commercial,Night,25.0,True,Car,False,Saturday
+349,2023-09-23,No Parking Zone,Commercial,Afternoon,50.0,True,Car,False,Thursday
+350,2023-07-24,Street Cleaning,Residential,Afternoon,50.0,False,Truck,False,Tuesday
+351,2023-03-09,Expired Meter,Commercial,Afternoon,50.0,True,,True,Wednesday
+352,2023-01-10,Fire Hydrant,Industrial,Afternoon,25.0,True,Car,False,Monday
+353,2023-12-28,Street Cleaning,Industrial,Morning,150.0,False,SUV,False,Wednesday
+354,2023-07-27,No Parking Zone,Commercial,Night,50.0,True,Car,False,Saturday
+355,2023-02-04,No Parking Zone,Residential,Evening,25.0,False,Car,False,Wednesday
+356,2023-06-12,Expired Meter,Residential,Morning,150.0,False,Car,True,Friday
+357,2023-01-28,Expired Meter,Downtown,Morning,150.0,True,Truck,False,Sunday
+358,2023-04-08,Expired Meter,Residential,Afternoon,,True,Car,False,Friday
+359,2023-10-15,No Parking Zone,Commercial,Night,75.0,False,Car,False,Thursday
+360,2023-01-14,No Parking Zone,Industrial,Afternoon,25.0,True,SUV,False,Friday
+361,2023-01-06,No Parking Zone,Downtown,Night,25.0,False,,False,Friday
+362,2023-01-20,Fire Hydrant,Commercial,Afternoon,25.0,True,Truck,False,Thursday
+363,2023-02-01,Street Cleaning,Downtown,Morning,50.0,True,Car,False,Sunday
+364,2023-09-29,Expired Meter,Downtown,Night,100.0,True,Truck,False,Saturday
+365,2023-06-22,Expired Meter,Commercial,Morning,25.0,False,Truck,False,Monday
+366,2023-08-04,Handicap,Residential,Evening,75.0,True,Truck,False,Friday
+367,2023-08-08,Expired Meter,Industrial,Afternoon,25.0,False,Car,False,Friday
+368,2023-04-16,Expired Meter,Residential,Morning,50.0,True,Car,True,Saturday
+369,2023-07-11,Expired Meter,Industrial,Afternoon,25.0,True,Car,False,Sunday
+370,2023-03-17,No Parking Zone,Residential,Night,50.0,False,Car,False,Sunday
+371,2023-05-17,Fire Hydrant,Residential,Morning,75.0,False,Motorcycle,False,Sunday
+372,2023-08-26,Handicap,Commercial,Night,25.0,True,Car,False,Friday
+373,2023-10-24,Street Cleaning,Residential,Evening,50.0,True,Motorcycle,True,Tuesday
+374,2023-06-21,Expired Meter,Commercial,Afternoon,25.0,True,Car,False,Thursday
+375,2023-04-03,Expired Meter,Residential,Afternoon,50.0,False,Truck,False,Tuesday
+376,2023-02-25,Expired Meter,Downtown,Morning,75.0,True,Car,False,Thursday
+377,2023-07-04,Fire Hydrant,Downtown,Evening,75.0,True,Car,False,Saturday
+378,2023-04-12,Street Cleaning,Residential,Morning,150.0,True,Truck,False,Sunday
+379,2023-05-09,Expired Meter,Residential,Afternoon,25.0,True,Car,False,Saturday
+380,2023-02-03,Expired Meter,Downtown,Night,75.0,True,Truck,True,Sunday
+381,2023-09-17,Street Cleaning,Commercial,Morning,100.0,True,Car,False,Saturday
+382,2023-10-08,Fire Hydrant,Commercial,Night,50.0,True,Car,False,Wednesday
+383,2023-11-27,Fire Hydrant,Industrial,Afternoon,50.0,True,Motorcycle,False,Saturday
+384,2023-10-18,Street Cleaning,Commercial,Afternoon,50.0,True,Truck,False,Thursday
+385,2023-04-16,Expired Meter,Commercial,Night,50.0,False,Truck,False,Thursday
+386,2023-01-12,Fire Hydrant,Downtown,Morning,50.0,True,Car,False,Saturday
+387,2023-06-08,Expired Meter,Residential,Afternoon,50.0,True,Truck,False,Thursday
+388,2023-04-30,Expired Meter,Commercial,Afternoon,75.0,False,Truck,True,Monday
+389,2023-12-11,No Parking Zone,Commercial,Morning,50.0,True,Car,False,Tuesday
+390,2023-05-11,No Parking Zone,Downtown,Afternoon,25.0,True,Car,False,Tuesday
+391,2023-08-14,Expired Meter,Industrial,Morning,50.0,False,Truck,False,Sunday
+392,2023-06-17,No Parking Zone,Downtown,Afternoon,25.0,True,Motorcycle,True,Thursday
+393,2023-11-11,Expired Meter,Downtown,Morning,25.0,True,Truck,False,Friday
+394,2023-03-02,Street Cleaning,Commercial,Evening,50.0,True,Truck,False,Sunday
+395,2023-07-04,Fire Hydrant,Industrial,Afternoon,25.0,True,Car,False,Wednesday
+396,2023-08-21,Street Cleaning,Residential,Night,50.0,False,Car,True,Wednesday
+397,2023-03-19,Expired Meter,Commercial,Afternoon,25.0,False,SUV,False,Sunday
+398,2023-10-10,Expired Meter,Residential,Night,,True,Car,False,Sunday
+399,2023-10-21,Expired Meter,Commercial,Afternoon,50.0,True,Truck,True,Wednesday
+400,2023-03-09,Street Cleaning,Industrial,Morning,50.0,True,Car,False,Friday
+401,2023-04-10,Expired Meter,Residential,Afternoon,100.0,True,Truck,False,Saturday
+402,2023-04-26,Expired Meter,Commercial,Afternoon,100.0,False,SUV,False,Friday
+403,2023-10-17,Fire Hydrant,Residential,Night,75.0,True,Truck,False,Saturday
+404,2023-08-24,Street Cleaning,Commercial,Evening,50.0,False,Car,False,Thursday
+405,2023-02-02,No Parking Zone,Industrial,Afternoon,100.0,False,Car,True,Thursday
+406,2023-04-03,No Parking Zone,Residential,Afternoon,50.0,True,Car,False,Friday
+407,2023-11-16,No Parking Zone,Commercial,Night,25.0,False,Car,False,Friday
+408,2023-01-23,Expired Meter,Downtown,Morning,50.0,False,Truck,False,Monday
+409,2023-12-08,Expired Meter,Residential,Morning,25.0,True,Truck,True,Thursday
+410,2023-11-23,Expired Meter,Residential,Afternoon,75.0,True,Car,True,Monday
+411,2023-01-14,No Parking Zone,Downtown,Afternoon,50.0,True,Car,False,Thursday
+412,2023-10-21,Expired Meter,Residential,Night,75.0,True,,True,Friday
+413,2023-06-25,Expired Meter,Industrial,Morning,75.0,True,SUV,False,Wednesday
+414,2023-03-10,No Parking Zone,Downtown,Morning,50.0,False,Car,True,Thursday
+415,2023-07-09,Fire Hydrant,Residential,Afternoon,,True,Car,True,Thursday
+416,2023-01-09,Fire Hydrant,Commercial,Morning,100.0,True,SUV,False,Sunday
+417,2023-05-04,Fire Hydrant,Downtown,Afternoon,150.0,False,Car,False,Friday
+418,2023-03-27,Expired Meter,Downtown,Evening,150.0,True,,True,Sunday
+419,2023-01-02,Handicap,Downtown,Night,100.0,True,Motorcycle,False,Friday
+420,2023-08-04,Expired Meter,Commercial,Afternoon,50.0,False,Car,False,Friday
+421,2023-01-05,Expired Meter,Commercial,Morning,25.0,True,Car,False,Sunday
+422,2023-02-25,Fire Hydrant,Commercial,Afternoon,50.0,True,Car,False,Friday
+423,2023-04-22,No Parking Zone,Industrial,Morning,50.0,True,SUV,False,Tuesday
+424,2023-03-27,Expired Meter,Residential,Morning,25.0,True,Car,False,Monday
+425,2023-07-31,Fire Hydrant,Downtown,Night,100.0,False,Car,False,Thursday
+426,2023-12-18,No Parking Zone,Commercial,Morning,50.0,True,SUV,True,Friday
+427,2023-05-18,Street Cleaning,Downtown,Afternoon,50.0,True,Car,False,Wednesday
+428,2023-08-13,Expired Meter,Downtown,Morning,75.0,True,Car,False,Sunday
+429,2023-01-31,Street Cleaning,Downtown,Evening,75.0,True,Car,True,Monday
+430,2023-04-22,Handicap,Commercial,Morning,50.0,True,SUV,False,Saturday
+431,2023-06-07,Expired Meter,Commercial,Morning,50.0,True,Motorcycle,False,Saturday
+432,2023-09-23,Expired Meter,Commercial,Night,,True,SUV,True,Friday
+433,2023-10-09,Expired Meter,Industrial,Evening,50.0,True,Car,True,Saturday
+434,2023-12-29,Expired Meter,Commercial,Afternoon,50.0,True,Truck,False,Monday
+435,2023-04-15,Fire Hydrant,Commercial,Afternoon,100.0,True,Car,True,Tuesday
+436,2023-05-06,Fire Hydrant,Industrial,Afternoon,25.0,True,SUV,False,Thursday
+437,2023-02-10,Fire Hydrant,Downtown,Afternoon,100.0,False,SUV,True,Tuesday
+438,2023-02-04,Street Cleaning,Downtown,Morning,75.0,True,Car,True,Sunday
+439,2023-07-10,No Parking Zone,Residential,Night,50.0,False,,False,Thursday
+440,2023-07-23,Expired Meter,Residential,Morning,,False,Car,False,Thursday
+441,2023-09-22,Handicap,Downtown,Morning,150.0,True,Truck,False,Friday
+442,2023-06-06,Expired Meter,Downtown,Afternoon,50.0,False,Motorcycle,False,Monday
+443,2023-01-04,No Parking Zone,Commercial,Afternoon,25.0,False,Car,False,Friday
+444,2023-03-07,Expired Meter,Downtown,Morning,50.0,False,SUV,False,Monday
+445,2023-11-22,Fire Hydrant,Residential,Afternoon,150.0,True,Truck,False,Monday
+446,2023-08-22,Handicap,Commercial,Morning,50.0,True,Car,False,Tuesday
+447,2023-02-27,Expired Meter,Residential,Morning,50.0,True,Car,False,Saturday
+448,2023-06-30,Expired Meter,Residential,Afternoon,75.0,True,SUV,False,Thursday
+449,2023-09-01,No Parking Zone,Commercial,Afternoon,50.0,False,Truck,False,Sunday
+450,2023-02-03,Expired Meter,Residential,Afternoon,50.0,False,Car,False,Wednesday
+451,2023-06-02,Expired Meter,Commercial,Morning,50.0,True,,True,Friday
+452,2023-03-01,No Parking Zone,Commercial,Afternoon,100.0,False,SUV,False,Wednesday
+453,2023-07-14,Handicap,Downtown,Evening,50.0,True,Truck,True,Tuesday
+454,2023-01-10,Fire Hydrant,Downtown,Morning,50.0,False,SUV,False,Tuesday
+455,2023-08-28,Expired Meter,Residential,Evening,150.0,False,Car,False,Sunday
+456,2023-08-09,Expired Meter,Residential,Morning,25.0,True,SUV,False,Thursday
+457,2023-06-04,Handicap,Residential,Morning,75.0,True,SUV,False,Monday
+458,2023-10-24,Fire Hydrant,Residential,Morning,50.0,False,,True,Thursday
+459,2023-12-08,Handicap,Industrial,Afternoon,75.0,True,Car,False,Tuesday
+460,2023-01-30,Street Cleaning,Residential,Afternoon,50.0,True,Truck,False,Tuesday
+461,2023-07-12,Handicap,Downtown,Morning,25.0,True,Car,False,Thursday
+462,2023-06-13,No Parking Zone,Commercial,Afternoon,25.0,True,Car,False,Friday
+463,2023-04-10,Fire Hydrant,Commercial,Morning,50.0,True,Motorcycle,True,Wednesday
+464,2023-03-16,Street Cleaning,Residential,Afternoon,25.0,True,SUV,False,Tuesday
+465,2023-07-28,Expired Meter,Downtown,Afternoon,100.0,False,Car,False,Friday
+466,2023-02-13,Fire Hydrant,Downtown,Afternoon,25.0,True,SUV,False,Sunday
+467,2023-10-19,Fire Hydrant,Commercial,Night,150.0,True,Car,False,Saturday
+468,2023-07-04,No Parking Zone,Downtown,Night,25.0,True,SUV,False,Monday
+469,2023-07-22,No Parking Zone,Downtown,Morning,50.0,True,Truck,False,Tuesday
+470,2023-03-06,Street Cleaning,Residential,Afternoon,100.0,True,SUV,False,Saturday
+471,2023-11-09,Handicap,Commercial,Afternoon,50.0,True,Car,False,Tuesday
+472,2023-03-04,Street Cleaning,Downtown,Morning,100.0,True,Truck,False,Friday
+473,2023-05-22,Fire Hydrant,Downtown,Afternoon,50.0,True,Car,False,Saturday
+474,2023-03-05,Expired Meter,Residential,Afternoon,25.0,False,Car,True,Saturday
+475,2023-12-24,Expired Meter,Downtown,Morning,50.0,True,Car,False,Monday
+476,2023-07-11,Expired Meter,Commercial,Afternoon,50.0,True,Car,False,Sunday
+477,2023-06-29,No Parking Zone,Residential,Morning,,True,Truck,True,Thursday
+478,2023-12-03,Expired Meter,Commercial,Afternoon,50.0,True,Motorcycle,True,Saturday
+479,2023-02-25,Expired Meter,Residential,Night,150.0,False,Car,True,Wednesday
+480,2023-11-07,Expired Meter,Commercial,Morning,25.0,True,Car,False,Saturday
+481,2023-08-08,No Parking Zone,Commercial,Afternoon,100.0,True,Car,False,Friday
+482,2023-11-15,Street Cleaning,Commercial,Afternoon,75.0,True,Car,False,Tuesday
+483,2023-07-27,Fire Hydrant,Residential,Morning,100.0,True,Car,False,Thursday
+484,2023-04-15,Fire Hydrant,Commercial,Afternoon,75.0,True,Truck,True,Saturday
+485,2023-09-03,Street Cleaning,Downtown,Morning,100.0,True,Car,False,Friday
+486,2023-01-16,Expired Meter,Residential,Afternoon,25.0,False,Car,True,Sunday
+487,2023-07-06,Handicap,Residential,Evening,50.0,False,Car,False,Sunday
+488,2023-10-16,Fire Hydrant,Industrial,Afternoon,100.0,True,SUV,False,Tuesday
+489,2023-08-21,Expired Meter,Commercial,Afternoon,25.0,True,Car,True,Monday
+490,2023-07-28,Fire Hydrant,Downtown,Night,25.0,True,Car,False,Sunday
+491,2023-04-25,Expired Meter,Downtown,Evening,150.0,False,Car,False,Monday
+492,2023-12-17,Fire Hydrant,Residential,Evening,50.0,True,Car,False,Monday
+493,2023-04-17,Expired Meter,Commercial,Evening,50.0,False,Car,True,Saturday
+494,2023-02-11,Expired Meter,Residential,Evening,50.0,True,SUV,False,Sunday
+495,2023-05-15,No Parking Zone,Commercial,Afternoon,50.0,False,Car,False,Saturday
+496,2023-06-13,Fire Hydrant,Commercial,Afternoon,,True,Car,False,Sunday
+497,2023-04-02,Street Cleaning,Downtown,Afternoon,25.0,True,Car,False,Saturday
+498,2023-04-26,Expired Meter,Commercial,Afternoon,75.0,True,Car,False,Monday
+499,2023-01-17,Street Cleaning,Commercial,Evening,50.0,True,Car,False,Friday
+500,2023-03-18,Fire Hydrant,Residential,Afternoon,75.0,False,,False,Friday
+501,2023-10-07,Street Cleaning,Downtown,Evening,50.0,True,Car,True,Wednesday
+502,2023-06-04,Expired Meter,Residential,Afternoon,75.0,True,Car,False,Sunday
+503,2023-03-14,No Parking Zone,Residential,Afternoon,75.0,True,Car,False,Wednesday
+504,2023-05-21,No Parking Zone,Downtown,Evening,100.0,True,Car,True,Monday
+505,2023-01-20,No Parking Zone,Commercial,Night,100.0,True,Car,False,Sunday
+506,2023-03-12,No Parking Zone,Downtown,Afternoon,25.0,True,Car,False,Saturday
+507,2023-07-19,No Parking Zone,Residential,Evening,150.0,False,Truck,False,Monday
+508,2023-08-16,Street Cleaning,Industrial,Evening,50.0,False,Truck,False,Tuesday
+509,2023-10-16,Expired Meter,Commercial,Evening,75.0,True,Car,False,Sunday
+510,2023-03-04,Expired Meter,Industrial,Night,75.0,False,,True,Thursday
+511,2023-03-19,Fire Hydrant,Commercial,Evening,100.0,True,Car,False,Tuesday
+512,2023-07-27,Handicap,Residential,Morning,75.0,True,Car,False,Saturday
+513,2023-02-17,Fire Hydrant,Commercial,Morning,,True,Car,False,Thursday
+514,2023-10-07,Fire Hydrant,Industrial,Afternoon,50.0,False,Car,False,Tuesday
+515,2023-06-08,Handicap,Commercial,Evening,100.0,False,Car,False,Monday
+516,2023-05-15,Street Cleaning,Commercial,Morning,50.0,True,Car,False,Friday
+517,2023-09-28,No Parking Zone,Commercial,Morning,,True,SUV,False,Sunday
+518,2023-09-14,Expired Meter,Downtown,Night,75.0,False,Truck,True,Thursday
+519,2023-03-09,Handicap,Commercial,Afternoon,25.0,False,Car,False,Sunday
+520,2023-01-09,Street Cleaning,Commercial,Morning,150.0,True,SUV,False,Wednesday
+521,2023-06-25,Street Cleaning,Commercial,Afternoon,100.0,True,Car,False,Thursday
+522,2023-08-26,Fire Hydrant,Residential,Night,25.0,False,Car,True,Wednesday
+523,2023-08-10,Fire Hydrant,Downtown,Afternoon,50.0,True,,True,Wednesday
+524,2023-07-22,Expired Meter,Downtown,Evening,50.0,False,Truck,True,Thursday
+525,2023-02-27,Expired Meter,Residential,Morning,25.0,False,Car,True,Monday
+526,2023-11-11,Expired Meter,Commercial,Evening,75.0,True,Car,False,Monday
+527,2023-08-02,Expired Meter,Residential,Afternoon,75.0,True,Car,False,Saturday
+528,2023-03-16,Expired Meter,Commercial,Afternoon,50.0,True,Truck,False,Wednesday
+529,2023-11-10,No Parking Zone,Commercial,Afternoon,50.0,True,Car,False,Tuesday
+530,2023-03-08,No Parking Zone,Industrial,Afternoon,75.0,True,SUV,True,Saturday
+531,2023-11-24,No Parking Zone,Downtown,Afternoon,75.0,True,Car,False,Thursday
+532,2023-12-14,Street Cleaning,Residential,Morning,150.0,True,Car,False,Saturday
+533,2023-06-21,Handicap,Residential,Afternoon,75.0,False,Car,False,Sunday
+534,2023-12-15,Expired Meter,Residential,Night,75.0,True,Car,True,Sunday
+535,2023-02-24,Handicap,Residential,Night,50.0,False,Car,False,Saturday
+536,2023-12-05,Expired Meter,Downtown,Morning,25.0,True,SUV,True,Tuesday
+537,2023-10-04,Handicap,Downtown,Afternoon,50.0,True,Car,False,Tuesday
+538,2023-12-25,Expired Meter,Residential,Afternoon,75.0,True,Car,False,Thursday
+539,2023-04-12,Expired Meter,Commercial,Afternoon,50.0,True,Truck,True,Tuesday
+540,2023-12-30,Expired Meter,Commercial,Afternoon,150.0,True,Car,False,Monday
+541,2023-08-16,Expired Meter,Residential,Evening,25.0,False,SUV,False,Monday
+542,2023-06-16,Expired Meter,Downtown,Morning,75.0,True,Car,True,Sunday
+543,2023-03-30,Fire Hydrant,Commercial,Afternoon,50.0,True,Car,True,Wednesday
+544,2023-09-28,No Parking Zone,Downtown,Afternoon,100.0,True,Car,False,Sunday
+545,2023-03-08,Street Cleaning,Downtown,Evening,25.0,False,Car,False,Saturday
+546,2023-06-05,Handicap,Residential,Evening,50.0,False,Car,True,Wednesday
+547,2023-07-22,Fire Hydrant,Downtown,Afternoon,75.0,True,Truck,True,Thursday
+548,2023-09-11,Street Cleaning,Residential,Afternoon,25.0,True,Truck,False,Tuesday
+549,2023-11-28,Fire Hydrant,Residential,Afternoon,100.0,True,Car,True,Thursday
+550,2023-06-09,Expired Meter,Residential,Afternoon,25.0,True,SUV,False,Wednesday
+551,2023-12-18,No Parking Zone,Residential,Evening,25.0,True,Car,False,Thursday
+552,2023-08-06,Expired Meter,Residential,Afternoon,75.0,True,Car,False,Tuesday
+553,2023-11-10,Expired Meter,Residential,Morning,25.0,True,Car,True,Wednesday
+554,2023-08-28,Street Cleaning,Commercial,Evening,50.0,True,Car,False,Sunday
+555,2023-03-28,Street Cleaning,Downtown,Afternoon,25.0,False,Car,False,Wednesday
+556,2023-08-12,No Parking Zone,Residential,Morning,75.0,True,,False,Friday
+557,2023-02-25,Fire Hydrant,Residential,Morning,25.0,True,Car,False,Thursday
+558,2023-08-18,Expired Meter,Downtown,Afternoon,25.0,False,Car,True,Thursday
+559,2023-03-07,Expired Meter,Commercial,Afternoon,25.0,True,Truck,False,Sunday
+560,2023-08-26,Handicap,Industrial,Night,100.0,False,Car,False,Wednesday
+561,2023-04-28,No Parking Zone,Downtown,Evening,75.0,False,SUV,False,Friday
+562,2023-02-28,No Parking Zone,Residential,Afternoon,50.0,False,Motorcycle,False,Wednesday
+563,2023-01-06,Fire Hydrant,Downtown,Evening,25.0,True,Truck,False,Wednesday
+564,2023-10-14,No Parking Zone,Residential,Evening,50.0,True,SUV,False,Monday
+565,2023-06-02,No Parking Zone,Downtown,Evening,100.0,False,SUV,False,Friday
+566,2023-02-08,Fire Hydrant,Commercial,Afternoon,75.0,True,,False,Wednesday
+567,2023-12-13,No Parking Zone,Commercial,Afternoon,50.0,True,Car,True,Friday
+568,2023-02-27,Expired Meter,Downtown,Afternoon,50.0,True,Car,True,Thursday
+569,2023-04-30,Fire Hydrant,Downtown,Morning,100.0,False,SUV,False,Friday
+570,2023-08-13,Expired Meter,Downtown,Morning,50.0,True,Car,False,Thursday
+571,2023-12-24,Fire Hydrant,Commercial,Evening,25.0,True,SUV,False,Friday
+572,2023-10-22,Street Cleaning,Residential,Morning,,True,Car,False,Friday
+573,2023-08-07,No Parking Zone,Commercial,Afternoon,50.0,False,SUV,False,Sunday
+574,2023-09-13,Fire Hydrant,Residential,Morning,50.0,True,Truck,False,Thursday
+575,2023-01-23,No Parking Zone,Downtown,Afternoon,25.0,True,Car,True,Saturday
+576,2023-07-22,Street Cleaning,Commercial,Afternoon,50.0,False,Car,False,Sunday
+577,2023-07-30,No Parking Zone,Commercial,Morning,,True,Car,False,Saturday
+578,2023-02-08,No Parking Zone,Residential,Morning,75.0,True,Car,True,Saturday
+579,2023-05-28,Expired Meter,Residential,Morning,50.0,True,Car,False,Sunday
+580,2023-06-17,Expired Meter,Residential,Morning,25.0,True,Car,False,Friday
+581,2023-02-22,Expired Meter,Residential,Night,25.0,True,Motorcycle,False,Thursday
+582,2023-09-24,No Parking Zone,Downtown,Afternoon,50.0,True,SUV,False,Wednesday
+583,2023-03-01,Expired Meter,Commercial,Afternoon,50.0,True,,False,Monday
+584,2023-09-21,No Parking Zone,Commercial,Afternoon,25.0,True,Truck,True,Tuesday
+585,2023-09-02,Expired Meter,Downtown,Afternoon,150.0,False,Car,True,Tuesday
+586,2023-04-10,Street Cleaning,Commercial,Afternoon,25.0,False,Car,False,Saturday
+587,2023-05-01,Fire Hydrant,Downtown,Morning,150.0,True,,False,Tuesday
+588,2023-05-09,Fire Hydrant,Commercial,Afternoon,50.0,True,Truck,False,Saturday
+589,2023-04-20,Fire Hydrant,Downtown,Morning,25.0,True,Motorcycle,False,Thursday
+590,2023-08-12,Fire Hydrant,Commercial,Afternoon,50.0,False,Car,True,Wednesday
+591,2023-12-13,Expired Meter,Residential,Afternoon,100.0,True,Car,False,Tuesday
+592,2023-03-14,Fire Hydrant,Downtown,Night,100.0,False,Car,False,Wednesday
+593,2023-07-18,No Parking Zone,Commercial,Morning,50.0,True,Truck,False,Sunday
+594,2023-08-26,No Parking Zone,Commercial,Evening,100.0,True,SUV,False,Tuesday
+595,2023-11-22,No Parking Zone,Residential,Evening,50.0,True,SUV,True,Tuesday
+596,2023-07-28,Fire Hydrant,Commercial,Afternoon,50.0,False,Car,False,Monday
+597,2023-10-24,Expired Meter,Commercial,Evening,100.0,False,Truck,False,Thursday
+598,2023-10-28,Handicap,Commercial,Evening,50.0,True,Truck,False,Thursday
+599,2023-06-27,Expired Meter,Residential,Evening,25.0,False,Truck,False,Saturday
+600,2023-01-26,Handicap,Commercial,Afternoon,25.0,True,Car,True,Saturday
+601,2023-03-14,No Parking Zone,Industrial,Morning,25.0,True,Car,False,Friday
+602,2023-04-06,Expired Meter,Commercial,Night,50.0,False,SUV,False,Sunday
+603,2023-07-31,No Parking Zone,Industrial,Afternoon,50.0,True,Car,False,Monday
+604,2023-09-28,Fire Hydrant,Downtown,Night,25.0,True,Car,False,Saturday
+605,2023-11-13,Expired Meter,Commercial,Morning,100.0,False,Car,True,Friday
+606,2023-12-21,Fire Hydrant,Residential,Afternoon,150.0,True,Truck,False,Friday
+607,2023-07-27,No Parking Zone,Residential,Evening,25.0,True,Car,False,Monday
+608,2023-10-29,Expired Meter,Commercial,Afternoon,25.0,True,,True,Saturday
+609,2023-07-06,Expired Meter,Downtown,Afternoon,50.0,True,Truck,False,Sunday
+610,2023-06-29,Expired Meter,Downtown,Morning,50.0,True,Car,False,Friday
+611,2023-12-29,Fire Hydrant,Industrial,Afternoon,75.0,False,Motorcycle,False,Monday
+612,2023-05-05,Expired Meter,Commercial,Evening,150.0,True,Car,True,Saturday
+613,2023-09-07,Handicap,Residential,Night,75.0,True,Car,False,Monday
+614,2023-02-15,Expired Meter,Downtown,Afternoon,,False,Truck,False,Tuesday
+615,2023-07-20,Expired Meter,Residential,Morning,75.0,False,Car,False,Monday
+616,2023-05-09,Street Cleaning,Commercial,Afternoon,,True,Car,False,Sunday
+617,2023-12-05,Expired Meter,Commercial,Evening,75.0,True,Truck,False,Monday
+618,2023-07-24,No Parking Zone,Downtown,Night,75.0,True,Car,True,Thursday
+619,2023-09-24,No Parking Zone,Commercial,Afternoon,50.0,True,Car,False,Wednesday
+620,2023-10-30,Expired Meter,Industrial,Evening,25.0,True,,False,Friday
+621,2023-01-04,Expired Meter,Commercial,Afternoon,100.0,True,Truck,False,Sunday
+622,2023-10-23,No Parking Zone,Residential,Morning,50.0,True,,False,Sunday
+623,2023-10-06,Street Cleaning,Downtown,Afternoon,50.0,False,Car,False,Friday
+624,2023-11-21,Fire Hydrant,Industrial,Evening,25.0,True,,False,Friday
+625,2023-08-15,No Parking Zone,Commercial,Evening,50.0,True,Truck,False,Wednesday
+626,2023-12-09,Fire Hydrant,Downtown,Evening,100.0,True,Car,False,Monday
+627,2023-05-23,Handicap,Commercial,Afternoon,50.0,True,Car,False,Wednesday
+628,2023-01-05,No Parking Zone,Commercial,Evening,75.0,True,Car,False,Thursday
+629,2023-01-06,Fire Hydrant,Downtown,Morning,50.0,True,Truck,False,Friday
+630,2023-09-11,Fire Hydrant,Downtown,Afternoon,100.0,True,Truck,False,Thursday
+631,2023-01-14,Expired Meter,Industrial,Evening,100.0,True,Motorcycle,True,Sunday
+632,2023-11-28,No Parking Zone,Commercial,Morning,,True,Car,False,Monday
+633,2023-11-11,Street Cleaning,Industrial,Night,50.0,False,Truck,False,Saturday
+634,2023-11-08,Fire Hydrant,Residential,Morning,50.0,True,Car,False,Sunday
+635,2023-10-25,No Parking Zone,Commercial,Morning,150.0,False,Car,False,Friday
+636,2023-03-26,Expired Meter,Residential,Afternoon,150.0,True,Car,True,Monday
+637,2023-12-31,Expired Meter,Downtown,Afternoon,25.0,False,SUV,False,Wednesday
+638,2023-08-30,Street Cleaning,Commercial,Morning,50.0,False,Motorcycle,False,Tuesday
+639,2023-01-09,Street Cleaning,Residential,Morning,25.0,True,Truck,True,Wednesday
+640,2023-05-15,No Parking Zone,Commercial,Morning,,True,Car,False,Saturday
+641,2023-03-04,Expired Meter,Commercial,Afternoon,25.0,False,Truck,True,Friday
+642,2023-05-18,Expired Meter,Residential,Evening,50.0,False,SUV,False,Saturday
+643,2023-05-26,Expired Meter,Downtown,Afternoon,75.0,True,SUV,False,Saturday
+644,2023-04-02,No Parking Zone,Downtown,Afternoon,25.0,True,Car,False,Saturday
+645,2023-09-16,Fire Hydrant,Commercial,Morning,50.0,False,Truck,True,Saturday
+646,2023-12-06,Expired Meter,Commercial,Morning,25.0,False,Car,False,Thursday
+647,2023-06-21,Expired Meter,Industrial,Morning,50.0,True,SUV,False,Friday
+648,2023-10-12,Expired Meter,Commercial,Morning,50.0,True,Truck,False,Tuesday
+649,2023-06-08,No Parking Zone,Downtown,Morning,100.0,True,Car,False,Sunday
+650,2023-12-22,Expired Meter,Commercial,Night,25.0,False,Car,False,Saturday
+651,2023-10-31,Expired Meter,Commercial,Morning,25.0,True,Truck,False,Thursday
+652,2023-06-05,No Parking Zone,Commercial,Morning,25.0,True,Car,True,Wednesday
+653,2023-02-26,Fire Hydrant,Industrial,Evening,75.0,True,Truck,True,Monday
+654,2023-08-08,No Parking Zone,Industrial,Evening,50.0,True,Car,False,Sunday
+655,2023-09-17,Fire Hydrant,Commercial,Afternoon,150.0,False,Car,False,Friday
+656,2023-06-28,No Parking Zone,Downtown,Morning,50.0,False,Car,True,Wednesday
+657,2023-07-26,No Parking Zone,Residential,Afternoon,150.0,True,Car,True,Sunday
+658,2023-12-01,Expired Meter,Commercial,Night,50.0,False,Car,False,Tuesday
+659,2023-07-08,Expired Meter,Commercial,Afternoon,100.0,False,Car,False,Sunday
+660,2023-01-14,Expired Meter,Residential,Morning,50.0,True,Car,False,Monday
+661,2023-11-17,Expired Meter,Residential,Afternoon,50.0,True,Car,False,Sunday
+662,2023-02-26,Expired Meter,Residential,Evening,25.0,False,Car,True,Sunday
+663,2023-11-17,Expired Meter,Residential,Evening,25.0,False,Car,False,Wednesday
+664,2023-09-24,Expired Meter,Residential,Afternoon,25.0,False,Car,False,Saturday
+665,2023-05-01,Handicap,Commercial,Evening,50.0,False,Car,False,Monday
+666,2023-12-15,No Parking Zone,Downtown,Afternoon,50.0,True,Truck,False,Saturday
+667,2023-01-01,Expired Meter,Commercial,Evening,50.0,True,Car,False,Monday
+668,2023-08-21,Expired Meter,Industrial,Afternoon,25.0,True,Car,False,Monday
+669,2023-02-04,Handicap,Industrial,Night,75.0,True,Car,False,Thursday
+670,2023-08-11,Expired Meter,Commercial,Night,,False,SUV,False,Sunday
+671,2023-04-12,Fire Hydrant,Residential,Afternoon,75.0,True,Truck,True,Friday
+672,2023-10-13,Handicap,Residential,Afternoon,100.0,False,Car,True,Thursday
+673,2023-02-04,Street Cleaning,Residential,Afternoon,50.0,True,Truck,False,Thursday
+674,2023-11-06,Expired Meter,Commercial,Morning,75.0,True,SUV,False,Thursday
+675,2023-02-23,No Parking Zone,Residential,Afternoon,75.0,False,SUV,False,Friday
+676,2023-05-15,Expired Meter,Residential,Night,75.0,False,Car,True,Friday
+677,2023-08-16,No Parking Zone,Downtown,Evening,25.0,True,SUV,True,Sunday
+678,2023-06-13,Expired Meter,Downtown,Night,50.0,False,SUV,False,Saturday
+679,2023-06-11,Handicap,Commercial,Morning,50.0,True,SUV,True,Friday
+680,2023-07-16,Handicap,Residential,Afternoon,25.0,False,Car,False,Tuesday
+681,2023-12-29,Fire Hydrant,Commercial,Morning,50.0,True,SUV,True,Tuesday
+682,2023-09-29,No Parking Zone,Commercial,Night,25.0,True,Truck,False,Saturday
+683,2023-01-10,Fire Hydrant,Residential,Afternoon,50.0,True,Car,False,Sunday
+684,2023-06-18,Street Cleaning,Commercial,Morning,25.0,False,Car,False,Monday
+685,2023-02-19,Expired Meter,Downtown,Morning,25.0,True,Truck,False,Sunday
+686,2023-10-31,Expired Meter,Industrial,Afternoon,75.0,False,SUV,False,Sunday
+687,2023-03-27,Expired Meter,Commercial,Afternoon,25.0,True,Car,True,Wednesday
+688,2023-08-25,No Parking Zone,Commercial,Afternoon,75.0,True,SUV,False,Sunday
+689,2023-11-22,Expired Meter,Commercial,Evening,75.0,True,Truck,False,Sunday
+690,2023-04-25,Handicap,Residential,Afternoon,150.0,False,Truck,False,Friday
+691,2023-06-01,Expired Meter,Commercial,Afternoon,25.0,True,Car,False,Monday
+692,2023-01-02,Expired Meter,Commercial,Afternoon,25.0,True,,False,Monday
+693,2023-03-16,No Parking Zone,Commercial,Afternoon,50.0,False,Car,True,Friday
+694,2023-03-09,Fire Hydrant,Commercial,Morning,25.0,True,,False,Friday
+695,2023-10-18,Fire Hydrant,Industrial,Afternoon,50.0,True,SUV,False,Monday
+696,2023-06-18,Expired Meter,Commercial,Afternoon,100.0,True,Car,False,Wednesday
+697,2023-05-04,Expired Meter,Downtown,Morning,150.0,False,,False,Thursday
+698,2023-07-17,Expired Meter,Industrial,Morning,100.0,True,SUV,False,Monday
+699,2023-04-17,Expired Meter,Residential,Evening,100.0,True,Motorcycle,False,Friday
+700,2023-10-14,Street Cleaning,Residential,Morning,75.0,True,SUV,False,Tuesday
+701,2023-10-09,Expired Meter,Industrial,Afternoon,100.0,False,SUV,False,Sunday
+702,2023-01-11,Expired Meter,Residential,Morning,,True,Car,False,Sunday
+703,2023-11-15,Handicap,Commercial,Evening,75.0,True,SUV,False,Monday
+704,2023-02-25,Fire Hydrant,Residential,Evening,50.0,False,Car,True,Tuesday
+705,2023-01-31,Street Cleaning,Commercial,Afternoon,50.0,True,Car,False,Friday
+706,2023-12-31,Expired Meter,Downtown,Afternoon,25.0,True,Car,False,Friday
+707,2023-06-17,Expired Meter,Residential,Morning,25.0,True,Car,True,Wednesday
+708,2023-08-02,Fire Hydrant,Commercial,Evening,25.0,True,Motorcycle,False,Monday
+709,2023-08-26,Expired Meter,Downtown,Afternoon,75.0,True,Car,False,Wednesday
+710,2023-01-03,No Parking Zone,Commercial,Morning,25.0,True,Truck,True,Thursday
+711,2023-10-27,No Parking Zone,Residential,Morning,75.0,True,Car,False,Thursday
+712,2023-12-12,Expired Meter,Commercial,Morning,50.0,True,Truck,False,Friday
+713,2023-04-22,No Parking Zone,Downtown,Afternoon,100.0,True,,False,Sunday
+714,2023-12-14,Expired Meter,Residential,Evening,50.0,False,Car,False,Thursday
+715,2023-03-16,Expired Meter,Commercial,Morning,50.0,True,Car,False,Saturday
+716,2023-04-19,Handicap,Residential,Evening,25.0,True,Car,False,Friday
+717,2023-11-03,Expired Meter,Downtown,Evening,50.0,True,Truck,True,Sunday
+718,2023-02-22,Expired Meter,Residential,Afternoon,25.0,True,SUV,False,Sunday
+719,2023-03-17,Handicap,Residential,Night,,False,Truck,False,Wednesday
+720,2023-07-28,Fire Hydrant,Industrial,Afternoon,50.0,False,Motorcycle,False,Friday
+721,2023-12-14,Expired Meter,Residential,Afternoon,75.0,True,,True,Thursday
+722,2023-04-19,No Parking Zone,Commercial,Afternoon,25.0,True,Car,False,Monday
+723,2023-06-24,Handicap,Residential,Afternoon,75.0,False,SUV,False,Tuesday
+724,2023-06-16,Street Cleaning,Downtown,Morning,50.0,True,Car,False,Wednesday
+725,2023-11-28,Expired Meter,Downtown,Afternoon,75.0,False,SUV,True,Saturday
+726,2023-12-07,Expired Meter,Downtown,Afternoon,50.0,False,Car,True,Tuesday
+727,2023-08-31,Fire Hydrant,Commercial,Afternoon,75.0,True,Truck,True,Friday
+728,2023-01-07,Expired Meter,Residential,Afternoon,100.0,True,Truck,False,Wednesday
+729,2023-03-29,Expired Meter,Residential,Morning,25.0,True,Car,False,Saturday
+730,2023-02-09,Expired Meter,Commercial,Afternoon,25.0,True,Car,False,Friday
+731,2023-05-11,Expired Meter,Commercial,Afternoon,50.0,False,Truck,False,Wednesday
+732,2023-07-06,No Parking Zone,Commercial,Afternoon,50.0,True,Car,True,Wednesday
+733,2023-11-07,No Parking Zone,Residential,Evening,,False,Truck,False,Thursday
+734,2023-04-25,Handicap,Commercial,Afternoon,25.0,True,Truck,True,Sunday
+735,2023-02-17,Handicap,Commercial,Morning,25.0,True,Car,False,Sunday
+736,2023-06-22,Expired Meter,Commercial,Afternoon,75.0,True,SUV,False,Sunday
+737,2023-11-15,Street Cleaning,Residential,Afternoon,25.0,True,SUV,False,Thursday
+738,2023-05-28,Expired Meter,Residential,Evening,75.0,True,Car,False,Friday
+739,2023-06-15,Fire Hydrant,Industrial,Afternoon,50.0,False,Car,False,Thursday
+740,2023-04-15,No Parking Zone,Downtown,Night,150.0,True,Car,False,Thursday
+741,2023-07-15,No Parking Zone,Commercial,Morning,50.0,True,Car,False,Tuesday
+742,2023-10-04,Expired Meter,Residential,Morning,50.0,True,Car,False,Tuesday
+743,2023-11-28,Expired Meter,Residential,Afternoon,25.0,True,Car,False,Wednesday
+744,2023-11-28,Expired Meter,Commercial,Afternoon,25.0,True,Car,False,Wednesday
+745,2023-03-20,Handicap,Commercial,Morning,75.0,True,Car,False,Saturday
+746,2023-01-15,Handicap,Residential,Afternoon,100.0,True,SUV,False,Wednesday
+747,2023-08-02,Expired Meter,Residential,Evening,100.0,True,Car,False,Tuesday
+748,2023-11-18,Handicap,Residential,Evening,,True,Car,False,Saturday
+749,2023-04-29,Street Cleaning,Commercial,Night,,True,Truck,False,Friday
+750,2023-11-08,No Parking Zone,Residential,Evening,25.0,True,Truck,False,Saturday
+751,2023-08-11,Fire Hydrant,Industrial,Afternoon,50.0,True,Car,True,Tuesday
+752,2023-04-07,Expired Meter,Commercial,Morning,25.0,True,Car,False,Sunday
+753,2023-09-07,Fire Hydrant,Residential,Morning,50.0,False,SUV,False,Wednesday
+754,2023-09-14,Expired Meter,Industrial,Afternoon,150.0,True,Car,True,Monday
+755,2023-09-03,No Parking Zone,Downtown,Morning,50.0,True,Car,False,Tuesday
+756,2023-09-16,No Parking Zone,Residential,Afternoon,100.0,True,Truck,False,Sunday
+757,2023-08-26,Expired Meter,Commercial,Morning,150.0,True,Car,False,Wednesday
+758,2023-02-15,Expired Meter,Commercial,Morning,100.0,False,Car,True,Saturday
+759,2023-08-27,Expired Meter,Industrial,Evening,25.0,True,Car,False,Saturday
+760,2023-03-23,Expired Meter,Commercial,Morning,50.0,True,Car,False,Thursday
+761,2023-02-03,Fire Hydrant,Commercial,Afternoon,50.0,True,Truck,False,Sunday
+762,2023-02-06,No Parking Zone,Commercial,Evening,25.0,True,Car,True,Saturday
+763,2023-04-04,No Parking Zone,Industrial,Morning,50.0,False,Truck,False,Tuesday
+764,2023-02-16,Expired Meter,Downtown,Morning,75.0,False,Truck,False,Wednesday
+765,2023-10-17,No Parking Zone,Downtown,Afternoon,100.0,True,Car,False,Saturday
+766,2023-03-07,No Parking Zone,Downtown,Morning,50.0,True,Truck,True,Tuesday
+767,2023-06-22,Fire Hydrant,Residential,Afternoon,75.0,False,Truck,False,Sunday
+768,2023-02-21,No Parking Zone,Residential,Morning,25.0,False,Car,True,Wednesday
+769,2023-08-16,Handicap,Commercial,Morning,25.0,True,Car,False,Sunday
+770,2023-07-18,Expired Meter,Downtown,Afternoon,75.0,True,Truck,True,Sunday
+771,2023-08-16,Fire Hydrant,Industrial,Afternoon,25.0,True,SUV,False,Friday
+772,2023-09-23,Expired Meter,Commercial,Evening,50.0,False,Car,False,Saturday
+773,2023-03-21,Expired Meter,Commercial,Morning,75.0,True,SUV,False,Friday
+774,2023-09-11,Expired Meter,Commercial,Afternoon,50.0,False,Car,True,Thursday
+775,2023-02-27,No Parking Zone,Commercial,Morning,150.0,False,Car,False,Wednesday
+776,2023-08-22,Street Cleaning,Commercial,Morning,75.0,True,Car,True,Saturday
+777,2023-07-06,No Parking Zone,Commercial,Afternoon,75.0,True,SUV,False,Friday
+778,2023-06-11,Expired Meter,Commercial,Afternoon,25.0,True,Car,True,Friday
+779,2023-09-07,Fire Hydrant,Downtown,Afternoon,50.0,False,Car,False,Wednesday
+780,2023-02-01,Expired Meter,Residential,Evening,100.0,True,Car,False,Friday
+781,2023-11-29,No Parking Zone,Residential,Morning,75.0,True,Car,False,Thursday
+782,2023-11-09,Expired Meter,Residential,Morning,50.0,False,Motorcycle,False,Sunday
+783,2023-04-08,No Parking Zone,Commercial,Morning,50.0,True,Car,True,Wednesday
+784,2023-03-12,Expired Meter,Commercial,Morning,50.0,False,Truck,False,Saturday
+785,2023-06-05,No Parking Zone,Commercial,Night,25.0,True,Truck,True,Monday
+786,2023-10-21,Expired Meter,Industrial,Afternoon,50.0,True,SUV,True,Saturday
+787,2023-03-15,Expired Meter,Downtown,Afternoon,75.0,False,Motorcycle,False,Friday
+788,2023-05-17,Expired Meter,Downtown,Morning,50.0,False,Car,False,Sunday
+789,2023-10-24,Handicap,Residential,Evening,75.0,True,Truck,False,Friday
+790,2023-09-28,Expired Meter,Downtown,Afternoon,25.0,True,Car,False,Tuesday
+791,2023-06-19,No Parking Zone,Residential,Morning,25.0,True,Truck,True,Friday
+792,2023-01-27,Handicap,Downtown,Night,50.0,True,Car,False,Wednesday
+793,2023-03-26,Street Cleaning,Residential,Evening,50.0,False,Car,False,Wednesday
+794,2023-02-10,Fire Hydrant,Downtown,Evening,75.0,False,Car,False,Saturday
+795,2023-09-01,Expired Meter,Residential,Afternoon,100.0,False,Car,False,Friday
+796,2023-11-25,Street Cleaning,Residential,Afternoon,25.0,True,Car,False,Monday
+797,2023-08-28,No Parking Zone,Commercial,Evening,75.0,True,Motorcycle,True,Thursday
+798,2023-02-14,Street Cleaning,Residential,Afternoon,25.0,True,Car,True,Wednesday
+799,2023-08-11,Expired Meter,Commercial,Morning,75.0,True,Car,False,Saturday
+800,2023-07-20,Fire Hydrant,Downtown,Morning,75.0,True,Car,False,Saturday
+801,2023-11-01,Expired Meter,Industrial,Morning,50.0,True,Truck,True,Monday
+802,2023-02-10,No Parking Zone,Commercial,Afternoon,25.0,True,,True,Saturday
+803,2023-12-22,No Parking Zone,Residential,Afternoon,50.0,True,SUV,False,Wednesday
+804,2023-04-25,Expired Meter,Commercial,Morning,50.0,False,SUV,False,Saturday
+805,2023-07-10,Street Cleaning,Residential,Afternoon,75.0,False,Car,False,Saturday
+806,2023-12-11,Handicap,Residential,Evening,75.0,True,Car,False,Wednesday
+807,2023-12-27,Expired Meter,Downtown,Night,75.0,False,Truck,False,Thursday
+808,2023-06-03,Handicap,Residential,Evening,25.0,False,Car,True,Saturday
+809,2023-11-18,No Parking Zone,Residential,Afternoon,50.0,True,Car,True,Wednesday
+810,2023-08-28,Fire Hydrant,Residential,Night,25.0,False,Car,True,Saturday
+811,2023-12-29,Expired Meter,Residential,Morning,50.0,True,Truck,False,Thursday
+812,2023-02-04,Street Cleaning,Commercial,Afternoon,50.0,True,SUV,False,Friday
+813,2023-07-28,No Parking Zone,Residential,Afternoon,25.0,False,Car,True,Friday
+814,2023-12-27,Fire Hydrant,Downtown,Afternoon,50.0,True,Car,True,Saturday
+815,2023-02-04,Handicap,Industrial,Evening,50.0,True,Truck,False,Monday
+816,2023-04-27,Expired Meter,Residential,Afternoon,25.0,True,Car,False,Friday
+817,2023-12-18,No Parking Zone,Residential,Morning,25.0,False,Car,False,Friday
+818,2023-08-20,No Parking Zone,Residential,Afternoon,75.0,True,Truck,False,Friday
+819,2023-02-21,Expired Meter,Commercial,Morning,25.0,False,Car,False,Monday
+820,2023-07-23,Expired Meter,Commercial,Morning,50.0,True,Car,False,Tuesday
+821,2023-01-25,Expired Meter,Downtown,Afternoon,75.0,True,Car,True,Tuesday
+822,2023-04-13,No Parking Zone,Industrial,Morning,50.0,False,Car,False,Monday
+823,2023-02-01,Expired Meter,Commercial,Afternoon,25.0,True,SUV,False,Thursday
+824,2023-01-13,Street Cleaning,Industrial,Afternoon,50.0,True,,True,Monday
+825,2023-10-09,Street Cleaning,Residential,Afternoon,,False,Car,False,Saturday
+826,2023-09-15,No Parking Zone,Commercial,Afternoon,75.0,True,Truck,False,Friday
+827,2023-11-13,No Parking Zone,Commercial,Night,150.0,True,Car,False,Thursday
+828,2023-10-24,Handicap,Downtown,Night,25.0,True,Truck,False,Saturday
+829,2023-09-04,No Parking Zone,Commercial,Afternoon,100.0,True,Truck,False,Saturday
+830,2023-11-21,Expired Meter,Residential,Afternoon,50.0,True,SUV,True,Sunday
+831,2023-03-01,Handicap,Downtown,Morning,75.0,True,Car,False,Monday
+832,2023-03-19,Expired Meter,Downtown,Morning,100.0,False,Car,False,Monday
+833,2023-12-26,Expired Meter,Commercial,Evening,50.0,True,Car,False,Thursday
+834,2023-06-22,Handicap,Commercial,Evening,75.0,True,Car,False,Thursday
+835,2023-07-01,Expired Meter,Residential,Evening,75.0,True,Car,True,Monday
+836,2023-10-03,Expired Meter,Commercial,Evening,,True,SUV,False,Thursday
+837,2023-01-13,Street Cleaning,Commercial,Evening,25.0,True,Car,False,Monday
+838,2023-08-12,Fire Hydrant,Commercial,Afternoon,100.0,False,Car,False,Monday
+839,2023-05-22,Expired Meter,Commercial,Night,25.0,False,SUV,False,Tuesday
+840,2023-11-21,Expired Meter,Industrial,Evening,25.0,False,Car,True,Friday
+841,2023-09-13,Expired Meter,Commercial,Afternoon,75.0,False,Truck,True,Thursday
+842,2023-02-15,Street Cleaning,Commercial,Afternoon,150.0,True,Truck,False,Thursday
+843,2023-03-18,Street Cleaning,Commercial,Afternoon,75.0,True,Car,True,Thursday
+844,2023-10-10,Expired Meter,Residential,Afternoon,25.0,True,,False,Saturday
+845,2023-05-27,No Parking Zone,Residential,Morning,50.0,False,Car,False,Wednesday
+846,2023-02-27,No Parking Zone,Residential,Morning,100.0,False,Car,False,Monday
+847,2023-01-10,Fire Hydrant,Industrial,Night,50.0,True,Truck,True,Wednesday
+848,2023-07-04,Expired Meter,Residential,Night,,True,Truck,False,Thursday
+849,2023-08-16,Expired Meter,Commercial,Night,100.0,True,Car,False,Tuesday
+850,2023-09-29,No Parking Zone,Residential,Afternoon,25.0,True,Truck,False,Friday
+851,2023-09-17,Expired Meter,Industrial,Night,25.0,True,Truck,False,Tuesday
+852,2023-12-23,Fire Hydrant,Commercial,Afternoon,25.0,True,Car,True,Sunday
+853,2023-10-10,Expired Meter,Commercial,Morning,25.0,True,Car,False,Monday
+854,2023-02-23,No Parking Zone,Commercial,Afternoon,50.0,True,Car,False,Wednesday
+855,2023-11-15,Expired Meter,Commercial,Evening,75.0,False,,True,Saturday
+856,2023-05-20,Expired Meter,Commercial,Evening,50.0,True,Car,False,Sunday
+857,2023-11-08,Expired Meter,Commercial,Afternoon,25.0,True,Car,True,Wednesday
+858,2023-05-05,Street Cleaning,Downtown,Afternoon,25.0,True,,False,Wednesday
+859,2023-08-23,Expired Meter,Downtown,Night,50.0,True,Car,False,Wednesday
+860,2023-09-22,No Parking Zone,Commercial,Morning,50.0,True,SUV,False,Friday
+861,2023-03-29,No Parking Zone,Commercial,Morning,50.0,True,Motorcycle,False,Monday
+862,2023-12-18,Fire Hydrant,Commercial,Morning,50.0,False,Car,False,Tuesday
+863,2023-04-19,Expired Meter,Residential,Afternoon,50.0,True,SUV,True,Friday
+864,2023-10-08,No Parking Zone,Residential,Afternoon,25.0,True,Truck,True,Friday
+865,2023-07-18,Fire Hydrant,Industrial,Morning,75.0,True,SUV,False,Thursday
+866,2023-11-21,Expired Meter,Downtown,Evening,25.0,True,SUV,False,Saturday
+867,2023-06-22,Expired Meter,Commercial,Evening,25.0,True,Car,False,Thursday
+868,2023-04-10,Expired Meter,Downtown,Afternoon,50.0,True,SUV,False,Saturday
+869,2023-07-01,No Parking Zone,Commercial,Morning,50.0,False,Truck,True,Wednesday
+870,2023-10-29,No Parking Zone,Commercial,Morning,75.0,True,SUV,True,Tuesday
+871,2023-01-28,Expired Meter,Downtown,Evening,75.0,False,Truck,False,Wednesday
+872,2023-05-04,Handicap,Residential,Morning,150.0,False,Truck,False,Saturday
+873,2023-04-17,Handicap,Residential,Afternoon,50.0,True,Car,False,Friday
+874,2023-08-03,Street Cleaning,Commercial,Evening,100.0,True,Car,False,Saturday
+875,2023-01-05,Handicap,Residential,Afternoon,75.0,False,,False,Thursday
+876,2023-06-19,Expired Meter,Commercial,Morning,50.0,True,Truck,False,Tuesday
+877,2023-09-28,No Parking Zone,Residential,Afternoon,25.0,False,Truck,True,Friday
+878,2023-02-24,Expired Meter,Commercial,Morning,25.0,False,Car,False,Monday
+879,2023-12-10,Handicap,Commercial,Morning,75.0,True,Car,False,Friday
+880,2023-02-07,Street Cleaning,Residential,Evening,75.0,True,Truck,False,Thursday
+881,2023-08-14,Expired Meter,Downtown,Afternoon,50.0,True,Truck,False,Wednesday
+882,2023-07-16,No Parking Zone,Downtown,Afternoon,50.0,False,Car,False,Friday
+883,2023-04-07,Fire Hydrant,Commercial,Morning,100.0,False,Car,False,Thursday
+884,2023-01-22,Expired Meter,Commercial,Night,150.0,True,,False,Tuesday
+885,2023-08-07,Expired Meter,Commercial,Morning,25.0,True,Truck,False,Sunday
+886,2023-02-08,Expired Meter,Commercial,Afternoon,75.0,True,,False,Friday
+887,2023-11-19,Expired Meter,Downtown,Evening,75.0,True,Car,False,Wednesday
+888,2023-07-01,Expired Meter,Residential,Night,25.0,False,Truck,False,Wednesday
+889,2023-05-23,Street Cleaning,Downtown,Night,50.0,True,Truck,False,Saturday
+890,2023-06-17,Street Cleaning,Residential,Afternoon,75.0,False,SUV,False,Thursday
+891,2023-04-04,Expired Meter,Residential,Afternoon,,True,Car,False,Wednesday
+892,2023-08-27,Fire Hydrant,Downtown,Night,100.0,True,SUV,False,Monday
+893,2023-02-17,No Parking Zone,Residential,Evening,25.0,True,Car,True,Monday
+894,2023-07-05,Fire Hydrant,Commercial,Afternoon,25.0,True,Car,False,Monday
+895,2023-08-10,No Parking Zone,Residential,Afternoon,25.0,True,SUV,False,Wednesday
+896,2023-08-02,No Parking Zone,Commercial,Evening,50.0,True,Car,False,Friday
+897,2023-03-21,Expired Meter,Downtown,Afternoon,50.0,True,Car,False,Tuesday
+898,2023-11-04,Expired Meter,Residential,Afternoon,25.0,True,Car,True,Friday
+899,2023-04-21,Fire Hydrant,Residential,Morning,75.0,True,SUV,False,Tuesday
+900,2023-12-31,Handicap,Residential,Afternoon,75.0,False,Truck,True,Monday
+901,2023-11-03,Expired Meter,Commercial,Afternoon,75.0,True,SUV,True,Wednesday
+902,2023-08-27,Expired Meter,Commercial,Evening,25.0,True,Motorcycle,False,Tuesday
+903,2023-01-25,Handicap,Commercial,Afternoon,25.0,False,Car,False,Monday
+904,2023-01-21,Expired Meter,Downtown,Evening,50.0,True,SUV,False,Wednesday
+905,2023-03-15,Handicap,Residential,Afternoon,50.0,True,Car,False,Monday
+906,2023-01-26,Street Cleaning,Downtown,Evening,50.0,True,Car,False,Wednesday
+907,2023-12-26,Expired Meter,Downtown,Morning,50.0,True,Car,False,Saturday
+908,2023-09-18,Expired Meter,Residential,Afternoon,50.0,True,Car,True,Monday
+909,2023-09-01,Fire Hydrant,Commercial,Afternoon,50.0,True,Car,False,Sunday
+910,2023-05-13,Expired Meter,Commercial,Afternoon,150.0,True,Car,True,Saturday
+911,2023-08-12,Expired Meter,Downtown,Evening,100.0,True,Truck,True,Monday
+912,2023-02-24,No Parking Zone,Commercial,Morning,50.0,True,Car,False,Saturday
+913,2023-02-04,Expired Meter,Industrial,Morning,75.0,False,SUV,False,Tuesday
+914,2023-04-11,Expired Meter,Downtown,Evening,25.0,False,Car,False,Friday
+915,2023-06-13,Expired Meter,Residential,Evening,75.0,True,Truck,False,Sunday
+916,2023-07-24,Expired Meter,Commercial,Afternoon,75.0,False,Car,False,Tuesday
+917,2023-12-05,Handicap,Residential,Night,25.0,True,SUV,False,Sunday
+918,2023-11-26,Expired Meter,Residential,Morning,75.0,False,Car,False,Tuesday
+919,2023-07-24,No Parking Zone,Downtown,Afternoon,25.0,True,SUV,False,Saturday
+920,2023-05-25,No Parking Zone,Residential,Afternoon,75.0,True,Truck,False,Saturday
+921,2023-03-08,Expired Meter,Commercial,Afternoon,25.0,True,Car,True,Tuesday
+922,2023-05-27,No Parking Zone,Residential,Afternoon,50.0,True,Car,False,Sunday
+923,2023-08-13,No Parking Zone,Commercial,Morning,25.0,True,Car,False,Saturday
+924,2023-04-12,Fire Hydrant,Commercial,Evening,25.0,False,SUV,False,Wednesday
+925,2023-05-28,Fire Hydrant,Downtown,Night,50.0,True,Car,False,Sunday
+926,2023-06-04,Handicap,Commercial,Night,100.0,True,Truck,False,Sunday
+927,2023-10-06,No Parking Zone,Residential,Afternoon,50.0,False,Car,True,Tuesday
+928,2023-07-10,No Parking Zone,Residential,Evening,25.0,False,Car,False,Thursday
+929,2023-12-19,No Parking Zone,Downtown,Afternoon,100.0,True,Motorcycle,False,Saturday
+930,2023-05-14,Street Cleaning,Downtown,Afternoon,50.0,True,Car,False,Monday
+931,2023-07-20,Expired Meter,Residential,Afternoon,,True,Car,False,Tuesday
+932,2023-08-06,No Parking Zone,Commercial,Afternoon,75.0,True,Car,True,Wednesday
+933,2023-04-26,Expired Meter,Residential,Evening,25.0,True,SUV,False,Wednesday
+934,2023-08-07,Fire Hydrant,Downtown,Night,75.0,False,SUV,False,Friday
+935,2023-12-21,Fire Hydrant,Downtown,Afternoon,75.0,False,Truck,True,Sunday
+936,2023-08-26,Expired Meter,Residential,Morning,,False,Truck,False,Thursday
+937,2023-04-20,Handicap,Commercial,Afternoon,50.0,True,,True,Wednesday
+938,2023-10-31,No Parking Zone,Downtown,Afternoon,50.0,True,SUV,True,Friday
+939,2023-11-06,Expired Meter,Commercial,Afternoon,25.0,True,Car,False,Sunday
+940,2023-12-21,Expired Meter,Residential,Afternoon,25.0,True,Car,False,Thursday
+941,2023-02-19,Expired Meter,Commercial,Afternoon,,True,,False,Wednesday
+942,2023-09-21,Expired Meter,Downtown,Evening,50.0,True,Car,True,Friday
+943,2023-12-28,Expired Meter,Commercial,Afternoon,150.0,False,Motorcycle,False,Wednesday
+944,2023-12-14,Street Cleaning,Commercial,Evening,150.0,False,Car,True,Wednesday
+945,2023-11-24,Street Cleaning,Downtown,Afternoon,25.0,False,Car,False,Saturday
+946,2023-04-19,Street Cleaning,Commercial,Afternoon,25.0,True,Car,False,Friday
+947,2023-10-15,Expired Meter,Residential,Evening,25.0,True,Car,False,Friday
+948,2023-02-14,Expired Meter,Residential,Morning,50.0,True,Car,False,Monday
+949,2023-04-17,Expired Meter,Commercial,Afternoon,75.0,True,Car,False,Saturday
+950,2023-05-26,No Parking Zone,Commercial,Morning,,True,Car,False,Monday
